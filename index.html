@@ -53,9 +53,48 @@ a.yt {
     text-decoration: none;
     cursor: pointer;
 }
+#loading-screen{top: 0;left: 0;right: 0;bottom: 0;background: linear-gradient(120deg,#353535,#151515);position: fixed;z-index: 999;}
+
+#loading-screen {
+position: absolute;
+width: 41px;
+height: 41px;
+background-size:41px;    
+margin: -16px 0 0 -16px;
+}
+
+.title {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 70px;
+    color: #eaeaea;
+    position: absolute;
+    font-family: oswald;
+    text-shadow: 0 0 9px!important;
+}
+
+#ls-load {
+    text-align: center;
+    left: 50%;
+    bottom: 50px;
+    transform: translateX(-50%);
+    font-size: 50px;
+    color: #eaeaea;
+    position: absolute;
+    display: inline-block;
+    font-size: 30px;
+    font-family: raleway;
+    vertical-align: middle;
+    text-shadow: 0 0 9px!important;
+}
 		</style>
+	<script>
+var _0x283c=['fadeOut','delay','slow','load','#loading-screen'];(function(_0x1eb4f1,_0x1fd3ee){var _0x1cfae2=function(_0x48c0a0){while(--_0x48c0a0){_0x1eb4f1['push'](_0x1eb4f1['shift']());}};_0x1cfae2(++_0x1fd3ee);}(_0x283c,0x106));var _0x3ff5=function(_0x3d3e1b,_0x58c13b){_0x3d3e1b=_0x3d3e1b-0x0;var _0x27c627=_0x283c[_0x3d3e1b];return _0x27c627;};$(window)['on'](_0x3ff5('0x0'),function(){var _0x509592=$(_0x3ff5('0x1')),_0x41dc63=_0x509592[_0x3ff5('0x2')](_0x3ff5('0x3'));_0x41dc63[_0x3ff5('0x4')]();_0x509592[_0x3ff5('0x5')](0x5f5)[_0x3ff5('0x4')](_0x3ff5('0x6'));});
+	</script>
 	</head>
 	<body>
+	<div id="loading-screen"><div class="title">ASTRIO ~ RUSSIAN SQUAD</div><span id="ls-load">Loading...</span></div>
 	<div class="upper">
 <p><a class="text" href="install.user.js">INSTALL</a></p>
 <a class="ty" target="_blank">Thank you for using my extension <3</a>
